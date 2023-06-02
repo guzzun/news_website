@@ -1,0 +1,91 @@
+*{
+	font-family: -apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,
+ 	Helvetica\ Neue,Arial,Noto\ Sans,sans-serif;
+	margin: 0; padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+:root{
+    --secondary: #1a1a1a;
+    --primary: #0D0D0D;
+    --yellow: #cdb01d;
+}
+
+
+body{
+	padding-top: 3vh;
+	background-color: var(--primary);
+	color: #dfdfdf;
+}
+
+.message{
+	font-weight: normal;
+	color: white;
+	padding: 1vh 1.5vw;
+	display: block;
+	margin: 0 auto;
+
+	font-size: 1.3em;
+	font-family: "Courier New";
+	text-align: center;
+}
+
+a:first-of-type{
+	display: block;
+	border-bottom: 4px solid var(--yellow);
+	padding-bottom: 1vh;
+	width: 100%;
+	text-align: right;
+	text-decoration: none;
+	color: white;
+}
+a:first-of-type:hover{ text-decoration: underline; }
+
+
+form[name=form_user]{
+	background: var(--secondary);
+	width: 75%;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+h4{
+	margin-top: 10px;
+	font-weight: normal;
+}
+
+input[type=text], input[type=email], input[type=date], input[type=file]{
+	padding: 5px;
+	width: 100%;
+	font-size: 16px;
+	border: none;
+	margin-top: 10px;
+	
+}
+
+textarea{
+	font-size: 16px;
+	width: 100%;
+	min-height: 100px;
+	resize: vertical;
+	margin-top: 10px;
+}
+
+input[type=submit]{
+	background-color: var(--yellow);
+	color: var(--primary);
+	padding: 10px;
+	border: none;
+	width: 100%;
+	font-size: 17px;
+	font-weight: bold;
+}
+input[type=submit]:hover{
+	cursor: pointer;
+	transition: .3s ease;
+	background-color: var(--yellow);
+	color: var(--primary);
+}
