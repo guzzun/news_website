@@ -1,4 +1,4 @@
 # news_website
 https://ggudnews.000webhostapp.com/index.php
 
-![image](https://github.com/guzzun/news_website/assets/77429704/09379bcf-59d8-4536-bd6b-355af93f328b)
+![image](https://github.com/guzzun/news_website/assets/77429704/e4b8b285-e32c-43a2-bad5-9238a8eff895)
